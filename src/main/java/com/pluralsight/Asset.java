@@ -52,4 +52,9 @@ public class Asset {
     public BigDecimal getValue() {
         return originalCost;
     }
+
+    //? Explains HOW the value was worked out (children override this too)
+    public String getValueMath() {
+        return "Worth what you paid";
+    }
 }
