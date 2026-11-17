@@ -96,4 +96,6 @@ public class House extends Asset {
         //* Example: good house (130) × 1,800 sq ft = 234,000 + 0.25 × 7,000 lot = 1,750 → $235,750
         return houseValue.add(lotValue);
     }
+
+
 }

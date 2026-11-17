@@ -53,8 +53,4 @@ public class Asset {
         return originalCost;
     }
 
-    //? Explains HOW the value was worked out (children override this too)
-    public String getValueMath() {
-        return "Worth what you paid";
-    }
 }
